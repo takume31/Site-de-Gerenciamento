@@ -1,0 +1,23 @@
+{
+  "name": "ativi",
+  "version": "1.0.0",
+  "main": "index.html",
+  "devDependencies": {
+    "vite": "^7.1.4"
+  },
+  "scripts": {
+  "dev": "vite",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/takume31/ativi.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/takume31/ativi/issues"
+  },
+  "homepage": "https://github.com/takume31/ativi#readme",
+  "description": ""
+}
