@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Detalhes do Musical</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[#0f0f16] text-white font-sans">
+  <!-- Navbar -->
+  <header class="flex items-center justify-between px-6 py-4 border-b border-gray-800">
+    <div class="flex items-center gap-3">
+      <a href="index.html">
+        <img src="93bcd494-6c2e-46b9-bf40-b42ecec68b7f.jpg" alt="Musical Guide Logo" class="h-12 w-auto">
+      </a>
+    </div>
+    <nav class="hidden md:flex gap-6 text-gray-300">
+      <a href="index.html" class="hover:text-white">Home</a>
+      <a href="#" class="hover:text-white">Musicais</a>
+      <a href="#" class="hover:text-white">Sobre</a>
+      <a href="#" class="hover:text-white">Contato</a>
+    </nav>
+    <button class="px-4 py-2 bg-white text-black rounded-xl font-semibold">Entrar</button>
+  </header>
+
+  <!-- Capa do Musical -->
+  <section class="px-6 py-10 max-w-6xl mx-auto">
+    <div class="grid md:grid-cols-3 gap-8 items-center">
+      <img src="https://picsum.photos/400/600?random=1" alt="Capa do Musical" class="rounded-xl shadow-lg w-full">
+      <div class="md:col-span-2">
+        <h1 class="text-4xl font-bold mb-4">Nome do Musical</h1>
+        <p class="text-gray-400 text-lg mb-6">
+          Uma breve descrição introdutória do musical. Pode incluir ano de estreia, principais prêmios ou uma frase de impacto.
+        </p>
+        <button class="px-6 py-3 bg-yellow-400 text-black rounded-xl font-semibold">Assistir Agora</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Galeria de Imagens -->
+  <section class="px-6 py-10 max-w-6xl mx-auto">
+    <h2 class="text-2xl font-bold mb-6">Galeria de Imagens</h2>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-4">
+      <img src="https://picsum.photos/300/200?random=2" class="rounded-lg shadow-md">
+      <img src="https://picsum.photos/300/200?random=3" class="rounded-lg shadow-md">
+      <img src="https://picsum.photos/300/200?random=4" class="rounded-lg shadow-md">
+      <img src="https://picsum.photos/300/200?random=5" class="rounded-lg shadow-md">
+    </div>
+  </section>
+
+  <!-- Sinopse -->
+  <section class="px-6 py-10 max-w-6xl mx-auto">
+    <h2 class="text-2xl font-bold mb-4">Sinopse</h2>
+    <p class="text-gray-400 leading-relaxed">
+      Aqui vai o texto da sinopse do musical. Esse espaço pode ser usado para explicar o enredo, o contexto histórico e a importância cultural da obra. A sinopse ajuda o público a entender melhor a experiência antes de assistir.
+    </p>
+  </section>
+
+  <!-- Lista de Músicas -->
+  <section class="px-6 py-10 max-w-6xl mx-auto">
+    <h2 class="text-2xl font-bold mb-4">Lista de Músicas</h2>
+    <ul class="list-disc list-inside text-gray-300 space-y-2">
+      <li>Canção de Abertura</li>
+      <li>Balada Principal</li>
+      <li>Número de Dança</li>
+      <li>Finale</li>
+    </ul>
+  </section>
+
+  <!-- Elenco Principal -->
+  <section class="px-6 py-10 max-w-6xl mx-auto">
+    <h2 class="text-2xl font-bold mb-6">Elenco Principal</h2>
+    <div class="grid md:grid-cols-4 gap-6">
+      <div class="text-center">
+        <img src="https://picsum.photos/200/200?random=6" class="rounded-full mx-auto mb-3">
+        <p class="font-semibold">Ator 1</p>
+        <p class="text-gray-400 text-sm">Personagem A</p>
+      </div>
+      <div class="text-center">
+        <img src="https://picsum.photos/200/200?random=7" class="rounded-full mx-auto mb-3">
+        <p class="font-semibold">Ator 2</p>
+        <p class="text-gray-400 text-sm">Personagem B</p>
+      </div>
+      <div class="text-center">
+        <img src="https://picsum.photos/200/200?random=8" class="rounded-full mx-auto mb-3">
+        <p class="font-semibold">Ator 3</p>
+        <p class="text-gray-400 text-sm">Personagem C</p>
+      </div>
+      <div class="text-center">
+        <img src="https://picsum.photos/200/200?random=9" class="rounded-full mx-auto mb-3">
+        <p class="font-semibold">Ator 4</p>
+        <p class="text-gray-400 text-sm">Personagem D</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Onde Assistir -->
+  <section class="px-6 py-10 max-w-6xl mx-auto">
+    <h2 class="text-2xl font-bold mb-4">Onde Assistir</h2>
+    <div class="flex flex-wrap gap-4">
+      <a href="#" class="px-4 py-2 bg-gray-800 rounded-lg hover:bg-gray-700">Netflix</a>
+      <a href="#" class="px-4 py-2 bg-gray-800 rounded-lg hover:bg-gray-700">Disney+</a>
+      <a href="#" class="px-4 py-2 bg-gray-800 rounded-lg hover:bg-gray-700">Amazon Prime</a>
+    </div>
+  </section>
+
+  <!-- Rodapé -->
+  <footer class="px-6 py-6 mt-10 border-t border-gray-800 text-gray-400 text-sm text-center">
+    © 2025 Musical. Todos os direitos reservados.
+  </footer>
+</body>
+</html>
