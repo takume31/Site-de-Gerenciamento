@@ -6,7 +6,7 @@
     "vite": "^7.1.4"
   },
   "scripts": {
-  "dev": "vite",
+    "dev": "vite",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -19,5 +19,8 @@
     "url": "https://github.com/takume31/ativi/issues"
   },
   "homepage": "https://github.com/takume31/ativi#readme",
-  "description": ""
+  "description": "",
+  "dependencies": {
+    "node": "^24.8.0"
+  }
 }
