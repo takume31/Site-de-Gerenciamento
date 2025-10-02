@@ -1,22 +1,13 @@
-.ator{
-    width: 200px;
-    height: 200px;
-    border-radius: 100%;
-}
-.atores{
-    text-align: center;
-    width: 200px;
-}
-.cartas{
+/* Estilo e animação para as imagens dos cards */
+.cartas {
     width: 100%;
-    height: 600px;
+    border-radius: 15px;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
 }
-body{
-    background-color: #0f0f16;
-    font-family: sans-serif;
-    color: white;
-}
-.galeria{
-    width: 300px;
-    height: 150px;
+
+.cartas:hover {
+    transform: translateY(-10px) scale(1.05);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
 }
